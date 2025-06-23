@@ -1,55 +1,89 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AVATAR – श्रीराम की धर्मगाथा</title>
   <style>
     body {
+      margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to bottom, #ffe0b2, #fff8e1);
-      color: #4e342e;
+      background: linear-gradient(to bottom, #fff3e0, #ffccbc);
       text-align: center;
-      padding: 40px;
+      color: #4e342e;
     }
+
+    header {
+      background-color: #d84315;
+      color: white;
+      padding: 20px 10px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 30px 20px;
+    }
+
     h1 {
-      font-size: 2.5em;
+      font-size: 2em;
       margin-bottom: 10px;
     }
+
     p {
-      font-size: 1.2em;
-      margin-bottom: 30px;
+      font-size: 1.1em;
+      margin-bottom: 25px;
     }
+
     .download-btn {
-      background-color: #ff7043;
+      background-color: #ff5722;
       color: white;
       padding: 15px 30px;
       font-size: 1.1em;
       border: none;
-      border-radius: 10px;
-      cursor: pointer;
+      border-radius: 8px;
       text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s ease;
     }
+
     .download-btn:hover {
-      background-color: #f4511e;
+      background-color: #e64a19;
     }
+
     footer {
-      margin-top: 50px;
+      margin-top: 40px;
+      padding: 15px;
       font-size: 0.9em;
-      color: #6d4c41;
+      background-color: #ffe0b2;
+      color: #5d4037;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 10px;
     }
   </style>
 </head>
 <body>
-  <h1>🚩 AVATAR – श्रीराम की धर्मगाथा</h1>
-  <p>भारत की सांस्कृतिक और वैज्ञानिक विरासत पर आधारित एक अद्भुत गेम</p>
 
-  <a href="https://drive.google.com/uc?export=download&id=1eGEMb9iQmcsf_8Zrx_AWjcB2zuvjXYvW" class="download-btn">
-    📱 ऐप डाउनलोड करें (APK)
-  </a>
+  <header>🚩 AVATAR – श्रीराम की धर्मगाथा</header>
+
+  <main>
+    <img src="https://i.imgur.com/t4fRjQA.jpg" alt="Avatar Game Poster">
+    <h1>संस्कृति से जुड़े, विज्ञान से सीखें</h1>
+    <p>भारत की सांस्कृतिक, वैज्ञानिक और आध्यात्मिक धरोहर पर आधारित एक रोमांचक गेम।</p>
+
+    <a href="https://drive.google.com/uc?export=download&id=1eGEMb9iQmcsf_8Zrx_AWjcB2zuvjXYvW" class="download-btn">
+      📲 ऐप डाउनलोड करें (APK)
+    </a>
+  </main>
 
   <footer>
-    <p>© 2025 Vikas Mahaur | Inspired by Dharma & Science</p>
+    © 2025 Vikas Mahaur | Powered by Dharma & Science | All rights reserved
   </footer>
+
 </body>
 </html>
