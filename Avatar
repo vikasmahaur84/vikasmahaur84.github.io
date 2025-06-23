@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AVATAR – श्रीराम की धर्मगाथा</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #ffe0b2, #fff8e1);
+      color: #4e342e;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+    .download-btn {
+      background-color: #ff7043;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.1em;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .download-btn:hover {
+      background-color: #f4511e;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #6d4c41;
+    }
+  </style>
+</head>
+<body>
+  <h1>🚩 AVATAR – श्रीराम की धर्मगाथा</h1>
+  <p>भारत की सांस्कृतिक और वैज्ञानिक विरासत पर आधारित एक अद्भुत गेम</p>
+
+  <a href="https://drive.google.com/uc?export=download&id=1eGEMb9iQmcsf_8Zrx_AWjcB2zuvjXYvW" class="download-btn">
+    📱 ऐप डाउनलोड करें (APK)
+  </a>
+
+  <footer>
+    <p>© 2025 Vikas Mahaur | Inspired by Dharma & Science</p>
+  </footer>
+</body>
+</html>
